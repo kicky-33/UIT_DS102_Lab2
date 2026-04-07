@@ -1,0 +1,16 @@
+độ đo:
+2 nhãn: Precision (mô hình đoán đúng / thực tế)
+	  recall (dữ liệu: đoán đúng so vs nghĩ là đoán đúng)
+P=TP/(TP+FP)
+R=TP/(TP+FN)
+
+F1: trung bình điều hòa của 2 độ đo kia
+
+Nhiều hơn 2 lớp:
+micro_avg : dùng cho nhãn ko bị mất cân bằng
+macro_avg : ngc lại với micro -> Nên xài macro
+
+train loss:
+phải giảm dần
+không âm
+
